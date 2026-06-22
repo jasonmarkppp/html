@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>主要景点 - 嵖岈山风景区</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html"><img src="img/logo.png" alt="嵖岈山风景区Logo" class="logo"></a>
+      <div class="site-title">
+        <h1>嵖岈山风景区</h1>
+        <p>国家AAAAA级旅游景区 · 西游仙山 · 中原盆景</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="intro.html">景区介绍</a></li>
+        <li><a href="scenery.html" class="active">主要景点</a></li>
+        <li><a href="xiyou.html">西游文化</a></li>
+        <li><a href="guide.html">游玩攻略</a></li>
+        <li><a href="food.html">驻马店美食</a></li>
+        <li><a href="zhumadian.html">大美驻马店</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="page-title">主要景点</h2>
+
+    <div class="scenery-grid">
+      <div class="scenery-item">
+        <img src="img/3.jpg" alt="南山奇石">
+        <div class="info">
+          <h3>南山：奇石探险与西游印象</h3>
+          <p>这是景区的精华所在，怪石林立。在这里可以看到体型巨大、堪称“猴祖宗”的原生石猴，以及睡唐僧、醉八戒组成的天然“师徒取经图”。核心地质奇观一线天、飞来石也在此处，黑风洞则是《西游记》的取景地之一。</p>
+        </div>
+      </div>
+      <div class="scenery-item">
+        <img src="img/4.jpg" alt="北山吊桥">
+        <div class="info">
+          <h3>北山：山巅远眺与人文石刻</h3>
+          <p>走过南山吊桥即达，最高峰天王顶海拔500多米，适合俯瞰平原风光。这里还有唐代大书法家颜真卿留下的“别是洞天”摩崖石刻，文化底蕴深厚。</p>
+        </div>
+      </div>
+      <div class="scenery-item">
+        <img src="img/5.jpg" alt="秀蜜湖">
+        <div class="info">
+          <h3>秀蜜湖：因紧邻蜜蜡峰而得名</h3>
+          <p>蜜蜡峰古时野花多，蜂蜜沿岩壁流下，远看像涂了蜜蜡，山下的湖水便得名“秀蜜湖”，取风景秀丽、湖水甘冽之意。传说至今湖水还带有一丝甜味。湖面开阔，能清晰看到蜜蜡峰倒映其中。从这里开始登山之旅。</p>
+        </div>
+      </div>
+      <div class="scenery-item">
+        <img src="img/6.jpg" alt="琵琶湖">
+        <div class="info">
+          <h3>琵琶湖：野趣自然与地质科普</h3>
+          <p>位于西南端，湖水因形似琵琶得名，野趣盎然。附近有地质科普园，适合带孩子的家庭了解地质知识。</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="bgm-control">
+    <button id="bgmToggle" type="button" title="播放/暂停背景音乐">▶</button>
+    <span>背景音乐</span>
+  </div>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="media/bgm.mp3" type="audio/mpeg">
+  </audio>
+  <footer>
+    版权所有©嵖岈山风景区，电话：0396-4779888
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

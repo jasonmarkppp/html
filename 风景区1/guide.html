@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>游玩攻略 - 嵖岈山风景区</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html"><img src="img/logo.png" alt="嵖岈山风景区Logo" class="logo"></a>
+      <div class="site-title">
+        <h1>嵖岈山风景区</h1>
+        <p>国家AAAAA级旅游景区 · 西游仙山 · 中原盆景</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="intro.html">景区介绍</a></li>
+        <li><a href="scenery.html">主要景点</a></li>
+        <li><a href="xiyou.html">西游文化</a></li>
+        <li><a href="guide.html" class="active">游玩攻略</a></li>
+        <li><a href="food.html">驻马店美食</a></li>
+        <li><a href="zhumadian.html">大美驻马店</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="guide-main">
+    <h2 class="page-title">游玩攻略</h2>
+
+    <div class="guide-info-grid">
+      <div class="guide-info-item">
+        <strong>地址</strong>
+        <span>驻马店遂平县嵖岈山南门</span>
+      </div>
+      <div class="guide-info-item">
+        <strong>开放时间</strong>
+        <span>7:30–17:30，17:00停止入园</span>
+      </div>
+      <div class="guide-info-item guide-info-wide">
+        <strong>门票</strong>
+        <span>成人65元，学生/老人半价；1.4米以下儿童/70岁以上免票；住景区酒店在前台买票刷脸无限次入园</span>
+      </div>
+    </div>
+
+    <div class="guide-section">
+      <h3>门票政策</h3>
+      <img src="img/12.jpg" alt="嵖岈山门票政策" class="guide-img">
+    </div>
+
+    <div class="guide-section">
+      <h3>交通</h3>
+      <ul class="guide-list">
+        <li><strong>自驾：</strong>南门停车10元/天，建议8:00前到避开人流</li>
+        <li><strong>公共：</strong>驻马店西站303路旅游专线，10元/人，1.5小时直达</li>
+        <li><strong>代步（自费）：</strong>魔毯40元、滑道30元、游船30元、天空漂流80元；懒人套票99元（门票+魔毯+滑道）</li>
+      </ul>
+    </div>
+
+    <div class="guide-section">
+      <h3>景区游览地图</h3>
+      <img src="img/11.jpg" alt="嵖岈山游览地图" class="guide-map">
+    </div>
+
+    <div class="guide-routes">
+      <div class="guide-route-box">
+        <h3>上山路线</h3>
+        <p class="route-path">南门入园 → 西游广场 → 秀蜜湖 → 黑风洞 → 槐花谷 → 动物石界 → 包公庙 → 五龙宫 → 西游记雕塑园 → 石猴院 → 网红吊桥 → 天下第一石猴 → 一线天 → 吴公洞 → 飞来石 → 凤凰台 → 登顶</p>
+      </div>
+      <div class="guide-route-box">
+        <h3>下山路线</h3>
+        <p class="route-path">从山顶沿指示牌往"下山路"方向走 → 老君花园峰 → 分水岭 → 百丈崖 → 冒险谷 → 琵琶湖 → 丞相帽石 → 炎黄二帝峰 → 观光车上车点 → 南山门</p>
+      </div>
+    </div>
+
+    <div class="guide-tips">
+      <h3>装备建议</h3>
+      <p>一定要穿防滑、舒适的徒步鞋，因为台阶和部分路段很窄。建议携带登山杖、少量高热量零食、充足的水和防晒用品。</p>
+    </div>
+  </main>
+
+  <div class="bgm-control">
+    <button id="bgmToggle" type="button" title="播放/暂停背景音乐">▶</button>
+    <span>背景音乐</span>
+  </div>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="media/bgm.mp3" type="audio/mpeg">
+  </audio>
+  <footer>
+    版权所有©嵖岈山风景区，电话：0396-4779888
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

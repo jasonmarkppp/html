@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大美驻马店 — 嵖岈山风景区</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo.png" alt="嵖岈山风景区Logo" class="logo-img">
+                <div>
+                    <div class="site-title">嵖岈山风景区</div>
+                    <div class="site-subtitle">国家5A级旅游景区 · 中原盆景</div>
+                </div>
+            </a>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-inner">
+                <a href="index.html">首页</a>
+                <a href="intro.html">景区简介</a>
+                <a href="attractions.html">主要景点</a>
+                <a href="xiyou.html">西游文化</a>
+                <a href="guide.html">游玩攻略</a>
+                <a href="food.html">美食特产</a>
+                <a href="zhumadian.html" class="active">大美驻马店</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="page-heading">
+            <h1>大美驻马店</h1>
+            <p>豫州之腹地 · 天下之最中</p>
+        </div>
+
+        <p class="content-text">驻马店古称"豫州之腹地、天下之最中"，自古便是南北交通重要驿道，"驻马歇驿"的典故也由此而来。这座城市山水风光秀丽、红色底蕴深厚、历史古迹众多，人文景观与自然景色交相辉映。</p>
+
+        <h2 class="section-title">1. 周边知名山水景区</h2>
+        <ul class="info-list">
+            <li><strong>老乐山景区：</strong>国家级森林公园、道教名山，森林覆盖率达96%，山间云海、花海、高空索道等景观极具特色。</li>
+            <li><strong>金顶山景区：</strong>天然森林氧吧，峡谷溪流纵横，玻璃天桥、丛林漂流等游乐项目丰富，是近郊休闲游玩的首选之地。</li>
+            <li><strong>竹沟革命纪念馆：</strong>知名红色研学圣地，为中原革命根据地旧址，承载着厚重的红色记忆。</li>
+            <li><strong>皇家驿站：</strong>仿古文旅古镇，汇聚全市特色小吃与非遗手作，夜晚灯火璀璨，景致迷人。</li>
+        </ul>
+
+        <h2 class="section-title">2. 城市人文风光</h2>
+        <p class="content-text">驻马店城市湿地、滨河公园生态环境优美，境内汝南南海禅寺、上蔡李斯故里、平舆古槐等历史古迹星罗棋布。春秋文化、驿站文化、红色文化与西游文化在此交融共生，形成了独树一帜的地域特色。</p>
+
+        <!-- 横向滚动图库（自动向右滚动） -->
+        <section class="gallery-section">
+            <h2>城市风光图库</h2>
+            <div class="gallery-viewport">
+                <div class="gallery-track">
+                    <figure class="gallery-item">
+                        <img src="img/13.jpg" alt="驻马店城市风光">
+                        <figcaption>驻马店城市风貌</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/14.jpg" alt="老乐山景区">
+                        <figcaption>老乐山景区云海</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/15.jpg" alt="金顶山景区">
+                        <figcaption>金顶山玻璃天桥</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/16.jpg" alt="皇家驿站夜景">
+                        <figcaption>皇家驿站古镇夜景</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/17.jpg" alt="滨河公园">
+                        <figcaption>城市滨河公园</figcaption>
+                    </figure>
+                    <!-- 复制一组，实现无缝循环 -->
+                    <figure class="gallery-item">
+                        <img src="img/13.jpg" alt="驻马店城市风光">
+                        <figcaption>驻马店城市风貌</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/14.jpg" alt="老乐山景区">
+                        <figcaption>老乐山景区云海</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/15.jpg" alt="金顶山景区">
+                        <figcaption>金顶山玻璃天桥</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/16.jpg" alt="皇家驿站夜景">
+                        <figcaption>皇家驿站古镇夜景</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="img/17.jpg" alt="滨河公园">
+                        <figcaption>城市滨河公园</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- 表单式跳转菜单 -->
+        <section class="jump-menu-section">
+            <h2>友情链接</h2>
+            <form class="jump-form" action="#" onsubmit="return false;">
+                <label for="friendLinks">请选择要访问的友情链接：</label>
+                <select id="friendLinks" name="friendLinks">
+                    <option value="default" selected>友情链接</option>
+                    <option value="gov">驻马店市政府</option>
+                    <option value="huanghuai">黄淮学院</option>
+                    <option value="laoleshan">老乐山景区</option>
+                    <option value="jindingshan">金顶山景区</option>
+                </select>
+                <button type="button" class="btn-go" onclick="jumpLink()">前往访问</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>版权所有&copy;嵖岈山风景区，电话：0396-4779888</p>
+    </footer>
+
+    <div class="bgm-control">
+        <button id="bgmToggle" type="button" title="播放/暂停背景音乐">▶</button>
+        <span>背景音乐</span>
+    </div>
+    <audio id="bgm" loop preload="auto">
+        <source src="media/bgm.mp3" type="audio/mpeg">
+    </audio>
+    <script src="js/main.js"></script>
+</body>
+</html>
